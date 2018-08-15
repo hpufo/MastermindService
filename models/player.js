@@ -7,9 +7,9 @@ const PlayerSchema = new Schema({
     type: String,
     required: [true, 'name field is required']
   },
-  turns: {
+  score: {
     type: Number,
-    required: [true, 'turns field is required']
+    required: [true, 'score field is required']
   }
 });
 

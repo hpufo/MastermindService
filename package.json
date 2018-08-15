@@ -1,0 +1,21 @@
+{
+  "name": "high-scores",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Christopher Stephenson",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
